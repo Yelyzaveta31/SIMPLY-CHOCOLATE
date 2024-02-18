@@ -1,3 +1,32 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #111;
+	background-color: #fafafa;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16667;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+
+
+a, address {
+    font-style: normal;
+    color: inherit;
+    font-family: inherit;
+}
+
+.accent {
+    color: #fd9222;
+}
+/* Хедер */
 .page {
 }
 .header {
@@ -5,8 +34,14 @@
 .header-nav {
 }
 .logo {
+font-weight: 700;
+font-size: 18px;
+line-height: 1.11111;
+letter-spacing: -0.03em;
+
 }
 .logo-accent {
+    font-style: italic;
 }
 .logo-icon {
 }
@@ -17,7 +52,17 @@
 .menu-item {
 }
 .menu-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14286;
+letter-spacing: -0.02em;
 }
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #fd9222;
+}
+
 .header-socials {
 }
 .socials {
@@ -25,12 +70,28 @@
 .socials-item {
 }
 .socials-link {
+
+}
+.socials-link:hover,
+.socials-link:focus {
+  color: #fd9222;
 }
 .socials-icon {
 }
+
+
+/* Секція 2. Hero */
+
 .hero {
+    background: rgba(17, 17, 17, 0.7);
 }
+
+
 .hero-title {
+font-weight: 500;
+font-size: 28px;
+line-height: 1.21429;
+letter-spacing: -0.03em;
 }
 .hero-list {
 }
@@ -44,18 +105,36 @@
 }
 .hero-icon {
 }
+
+/* Секція 3. Benefits */
 .benefits {
+    background: #1e1823;
+    color: #fafafa;
 }
 .benefits-title {
 }
 .benefits-list {
 }
 .benefits-item {
+    
 }
 .benefits-caption {
+    font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 18px;
+line-height: 1.22222;
+color: #fff;
 }
-.benefits-text {
+.benefits-text {font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
 }
+
+
+/* Секція 4. Ingredients */
 .ingredients {
 }
 .ingredients-title {
@@ -70,6 +149,8 @@
 }
 .ingredients-caption {
 }
+
+/* Секція 5. Made */
 .made {
 }
 .made-title {
@@ -84,6 +165,8 @@
 }
 .products {
 }
+
+/* Секція 6. Products */
 .products-title {
 }
 .products-list {
@@ -98,6 +181,8 @@
 }
 .products-price {
 }
+
+/* Секція 7. Bestsellers */
 .bestsellers {
 }
 .bestsellers-title {
@@ -110,6 +195,8 @@
 }
 .bestsellers-caption {
 }
+
+/* Секція 8. Reviews */
 .reviews {
 }
 .reviews-title {
@@ -126,7 +213,11 @@
 }
 .review-btn {
 }
+
+/* Футер */
 .footer {
+    background: #1e1823;
+    color: #fff;
 }
 .footer-slogan {
 }
