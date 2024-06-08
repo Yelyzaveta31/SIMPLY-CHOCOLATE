@@ -1,18 +1,18 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    color: #111;
-	background-color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+  color: #111;
+  background-color: #fafafa;
 }
 
 h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.16667;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #111;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
 }
 
 h1,
@@ -25,89 +25,84 @@ p {
   margin: 0;
 }
 
-
-a, address, {
-    font-style: normal;
-    color: inherit;
-    font-family: inherit;
-    text-decoration: none;
+a,
+address {
+  font-style: normal;
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
 }
 
 ul {
-
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .accent {
-    color: #fd9222;
+  color: #fd9222;
 }
 
 .button {
-    font-family: inherit;
-    color: inherit;
-    cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  cursor: pointer;
 }
 
 .img {
-    display: block;
+  display: block;
 }
 
-
 .container {
-width: 1168px;
-padding: 0 16px;
-margin: 0 auto;
+  width: 1168px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 
 /* Хедер */
 .page {
 }
 .header .container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-   
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .header-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 90px;
 }
 
 .menu {
-   
 }
 
 .logo {
-font-weight: 700;
-font-size: 18px;
-line-height: 1.11111;
-letter-spacing: -0.03em;
-
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.03em;
 }
 .logo-accent {
-    font-style: italic;
+  font-style: italic;
 }
 .logo-icon {
 }
 .header-menu {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    margin-left: 365px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-left: 365px;
 }
 .menu {
 }
 .menu-item {
 }
 .menu-link {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14286;
-letter-spacing: -0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
 }
 
 .menu-link:hover,
@@ -116,16 +111,15 @@ letter-spacing: -0.02em;
 }
 
 .header-socials {
-    display: flex;
-    flex-direction: row;
-    gap: 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
 }
 .socials {
 }
 .socials-item {
 }
 .socials-link {
-
 }
 .socials-link:hover,
 .socials-link:focus {
@@ -134,182 +128,216 @@ letter-spacing: -0.02em;
 .socials-icon {
 }
 
-
 /* Секція 2. Hero */
 
 .hero {
-    background: rgba(17, 17, 17, 0.7);
-    padding-bottom: 80px;
+  background: rgba(17, 17, 17, 0.7);
+  padding-bottom: 80px;
 }
-
 
 .hero-title {
-font-weight: 500;
-font-size: 28px;
-line-height: 1.21429;
-letter-spacing: -0.03em;
-width: 484px;
-min-height: 102px;
-margin-bottom: 32px;
-padding-top: 381px;
-color: #fff;
-padding-left: 40px;
-
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.03em;
+  width: 484px;
+  min-height: 102px;
+  margin-bottom: 32px;
+  padding-top: 381px;
+  color: #fff;
+  padding-left: 40px;
 }
 .hero-item-container {
-    display: flex;
-    padding: 0 40px;
+  display: flex;
+  padding: 0 40px;
 }
 
 .hero-list {
-    display: flex;
-    flex-direction: row;
-    gap: 14px;
-    margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  margin-right: auto;
 }
 .hero-item {
 }
 .btn-buy {
-    border-radius: 100px;
-padding: 14px 40px;
-width: 144px;
-height: 45px;
-background: #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 144px;
+  height: 45px;
+  background: #fd9222;
 
-font-weight: 600;
-font-size: 14px;
-color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
 }
 
 .btn-made {
-    border: 1px solid #fff;
-border-radius: 100px;
-padding: 14px 40px;
-width: 183px;
-height: 45px;
-font-weight: 600;
-font-size: 14px;
-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 183px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
 }
 
 .hero-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
 
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.28;
-    letter-spacing: -0.03em;
-    color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #fff;
 }
 .hero-icon {
 }
 
 /* Секція 3. Benefits */
 .benefits {
-    background: #1e1823;
-    color: #fafafa;
-    padding: 50px 0;
-
+  background: #1e1823;
+  color: #fafafa;
+  padding: 50px 0;
 }
 .benefits-title {
 }
 
 .benefits-list {
-    display: flex;
-    justify-content: center;
-    gap: 88px;
-    padding: 0 17px;
+  display: flex;
+  justify-content: center;
+  gap: 88px;
+  padding: 0 17px;
 }
 .benefits-item {
-    
 }
 .benefits-caption {
-    font-family: "Montserrat", sans-serif;
-font-weight: 600;
-font-size: 18px;
-line-height: 1.22222;
-color: #fff;
-margin-bottom: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22222;
+  color: #fff;
+  margin-bottom: 18px;
 }
-.benefits-text {font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.28571;
-    letter-spacing: -0.02em;
-    color: rgba(255, 255, 255, 0.7);
+.benefits-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
 }
-
 
 /* Секція 4. Ingredients */
 .ingredients {
-    padding: 120px 0;
+  padding: 120px 0;
 }
 .ingredients-title {
-
-    width: 412px;
-height: 56px;
-text-align: center;
-    margin: 0 auto;
-    
+  width: 412px;
+  height: 56px;
+  text-align: center;
+  margin: 0 auto;
 }
 .accent {
 }
 .ingredients-list {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 24px;
-    column-gap: 32px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 32px;
 }
 .ingredients-item {
-    background: #fff;
-    border-radius: 15px;
-    width: 260px;
-    height: 270px;
+  background: #fff;
+  border-radius: 15px;
+  width: 260px;
+  height: 270px;
+}
+.ingredients-item:nth-child(2n + 1) {
+  border: 1px solid #fd9222;
+  background-color: #fd9222;
 }
 
+.ingredients-item:nth-child(2n) {
+  border: 1px solid #fd9222;
+}
 
-.ingredients-img {}
-   
-
-/* .ingredients-img:nth-child(2n+1) {
-    background: #fd9222;
-} */
+.ingredients-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 28px;
+}
 
 .ingredients-caption {
-    font-weight: 600;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #111;
+  padding-top: 36px;
+  padding-left: 28px;
 }
 
 /* Секція 5. Made */
 .made {
+  padding-bottom: 120px;
 }
+
+.made-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+.made-text {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 516px;
+  padding: 32px;
+}
+
 .made-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .made-img {
+  border-radius: 15px;
+  width: 600px;
+  height: 400px;
 }
 .made-subtitle {
-font-weight: 600;
-font-size: 18px;
-line-height: 1.33333;
-color: #111;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  color: #111;
+  margin-bottom: 28px;
 }
 
 .made-list {
+  width: 452px;
+  height: 260px;
 }
 .made-item {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.28571;
-letter-spacing: -0.02em;
-color: #111;
-
-
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: #111;
+  margin-bottom: 24px;
+  list-style-type: circle;
 }
 
 /* Секція 6. Products */
@@ -318,63 +346,107 @@ color: #111;
 }
 
 .products-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+  padding-bottom: 50px;
 }
 .products-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 18px;
+  list-style-type: none;
 }
 .products-item {
-    background: #fff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  width: 270px;
+  padding: 32px 20px;
+  background-color: white;
 }
 .products-img {
+  width: 230px;
+  height: 201px;
+  margin: 0 auto;
 }
 .products-caption {
-font-weight: 600;
-font-size: 18px;
-line-height: 1.33333;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: #111;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
 }
 .products-text {
-font-weight: 400;
-font-size: 12px;
-line-height: 1.16667;
-letter-spacing: -0.02em;
-color: rgba(17, 17, 17, 0.7);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+  padding-top: 2px;
+  padding-bottom: 18px;
+  text-align: center;
 }
 .products-price {
-    border: 1px solid rgba(17, 17, 17, 0.1);
-border-radius: 100px;
-padding: 8px 20px;
-width: 94px;
-height: 33px;
-background-color: #fafafa;
-font-weight: 600;
-font-size: 14px;
-color: #111;
-
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+  padding: 8px 20px;
+  width: 94px;
+  height: 33px;
+  background-color: #fafafa;
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Секція 7. Bestsellers */
 .bestsellers {
+  padding: 120px 0;
+}
+
+.top-container {
+  display: flex;
+  justify-content: center;
 }
 .bestsellers-title {
+  margin-bottom: 50px;
 }
 .bestsellers-list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  list-style-type: none;
 }
 .bestsellers-item {
+  width: 368px;
+  background-color: white;
+  border-radius: 15px 15px 0 0;
 }
 .bestsellers-img {
-    border-radius: 15px 15px 0 0;
-width: 368px;
-height: 464px;
+  border-radius: 15px 15px 0 0;
+  width: 368px;
+  height: 464px;
 }
 .bestsellers-caption {
-font-weight: 600;
-font-size: 18px;
-line-height: 1.33333;
-letter-spacing: -0.02em;
-text-transform: uppercase;
-color: #111;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+  border-radius: 15px 0;
+  padding: 28px 0;
 }
 
 /* Секція 8. Reviews */
@@ -387,79 +459,78 @@ color: #111;
 .reviews-item {
 }
 .reviews-img {
-    border-radius: 100%;
+  border-radius: 100%;
 }
 .reviews-author {
-font-weight: 600;
-font-size: 18px;
-line-height: 1.33333;
-text-align: center;
-color: #111;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  text-align: center;
+  color: #111;
 }
 .reviews-text {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.28571;
-letter-spacing: -0.02em;
-text-align: center;
-color: rgba(17, 17, 17, 0.7);
-
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
 }
 .review-btn {
-    border: 1px solid #fd9222;
-border-radius: 100px;
-padding: 14px 40px;
-width: 222px;
-height: 50px;
+  border: 1px solid #fd9222;
+  border-radius: 100px;
+  padding: 14px 40px;
+  width: 222px;
+  height: 50px;
 }
 
 /* Футер */
 .footer {
-    background: #1e1823;
-    color: #fff;
+  background: #1e1823;
+  color: #fff;
 }
 .footer-slogan {
-font-weight: 500;
-font-size: 28px;
-line-height: 1.21429;
-letter-spacing: -0.02em;
-color: #fd9222;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.02em;
+  color: #fd9222;
 }
 
 .footer-social {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.28571;
-text-align: center;
-color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fff;
 }
 .socials-img {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 10px;
-padding: 8px;
-width: 40px;
-height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
 }
 .footer-contacts {
 }
 .footer-contacts-caption {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.28571;
-text-align: center;
-color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fff;
 }
 .contacts-list {
 }
 .contacts-item {
 }
 .contacts-link {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.28571;
-letter-spacing: -0.02em;
-text-align: center;
-color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
 }
 .footer-menu {
 }
