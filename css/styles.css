@@ -453,13 +453,32 @@ ul {
 .reviews {
 }
 .reviews-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fd9222;
+  margin-bottom: 50px;
 }
 .reviews-list {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
 }
 .reviews-item {
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  width: 360px;
+  height: 200px;
+  margin-bottom: 50px;
 }
 .reviews-img {
   border-radius: 100%;
+  display: block;
+  margin: 0 auto;
 }
 .reviews-author {
   font-weight: 600;
@@ -467,6 +486,8 @@ ul {
   line-height: 1.33333;
   text-align: center;
   color: #111;
+  padding-top: 18px;
+  padding-bottom: 24px;
 }
 .reviews-text {
   font-weight: 400;
@@ -475,6 +496,7 @@ ul {
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(17, 17, 17, 0.7);
+  padding: 0 24px;
 }
 .review-btn {
   border: 1px solid #fd9222;
@@ -482,10 +504,13 @@ ul {
   padding: 14px 40px;
   width: 222px;
   height: 50px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Футер */
 .footer {
+  margin-top: 120px;
   background: #1e1823;
   color: #fff;
 }
